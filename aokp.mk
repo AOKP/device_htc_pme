@@ -15,9 +15,6 @@
 $(call inherit-product, device/htc/pme/full_pme.mk)
 $(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/aokp/configs/nfc_enhanced.mk)
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pme
 PRODUCT_NAME := aokp_pme
