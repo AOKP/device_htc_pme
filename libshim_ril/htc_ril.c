@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016, The CyanogenMod Project
+ * Copyright (C) 2016 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,22 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef __TFA_H__
-#define __TFA_H__
-
-#include <tinyalsa/asoundlib.h>
-#include <stdbool.h>
-
-typedef struct tfaS tfa_t;
-
-tfa_t *tfa_new(void);
-
-struct pcm *tfa_clocks_on(tfa_t *);
-int tfa_clocks_off(tfa_t *, struct pcm *pcm);
-
-bool tfa_wait_for_init(tfa_t *tfa);
-void tfa_apply_profile(tfa_t *tfa, int profile);
-
-void tfa_destroy(tfa_t *);
-
-#endif
+int checkRequestInfo (struct RequestInfo *pRI)
+{
+     return 0;
+}

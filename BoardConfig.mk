@@ -41,6 +41,8 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno530
 
 TARGET_USES_64_BIT_BINDER := true
 
+ENABLE_CPUSETS := true
+
 ENABLE_SCHEDBOOST := true
 
 # Use Snapdragon LLVM, if available
@@ -170,7 +172,7 @@ BOARD_USES_QC_TIME_SERVICES := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # RIL
-BOARD_PROVIDES_LIBRIL := true
+TARGET_RIL_VARIANT := caf
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
