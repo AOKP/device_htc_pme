@@ -1,7 +1,9 @@
 [
  {
-   "repository": "android_kernel_htc_msm8996",
-   "target_path": "kernel/htc/msm8996"
+   "remote": "aokp",
+   "repository": "AOKP/kernel_htc_msm8996",
+   "target_path": "kernel/htc/msm8996",
+   "revision": "nougat"
  },
  {
    "repository": "android_device_qcom_common",
