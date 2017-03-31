@@ -28,5 +28,11 @@
   {
     "repository": "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
+  },
+  {
+    "remote": "github",
+    "repository": "ArchiDroid/Toolchain",
+    "target_path": "prebuilts/gcc/linux-x86/arm/linaro-5.2",
+    "revision": "linaro-5.2"
   }
 ]
