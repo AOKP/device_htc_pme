@@ -24,4 +24,4 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 PRODUCT_DEVICE := pme
 PRODUCT_NAME := full_pme
 
-$(call inherit-product-if-exists, vendor/htc/pme/pme-vendor.mk)
+$(call inherit-product-if-exists, vendor/htc-perfume/pme-vendor.mk)

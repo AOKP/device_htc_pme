@@ -212,4 +212,4 @@ WIFI_DRIVER_FW_PATH_P2P     := "/system/etc/firmware/fw_bcm4359.bin"
 WIFI_DRIVER_FW_PATH_STA     := "/system/etc/firmware/fw_bcm4359.bin"
 
 # inherit from the proprietary version
--include vendor/htc/pme/BoardConfigVendor.mk
+-include vendor/htc-perfume/BoardConfigVendor.mk
